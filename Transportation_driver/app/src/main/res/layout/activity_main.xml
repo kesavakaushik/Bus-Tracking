@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#959595">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellow"
+        android:titleTextColor="@android:color/white"
+        app:titleTextColor="@color/colorPrimaryDark"
+
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+
+        >
+
+<EditText
+    android:id="@+id/mobile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:drawableLeft="@drawable/contactno"
+    android:drawableTint="@color/colorPrimary"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:inputType="phone"
+    android:textColor="@color/colorPrimary"
+    android:textColorHint="@color/yellow"
+    android:hint="Enter mobile Number"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:typeface="serif"
+        android:textColor="@color/yellow"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        />
+
+</LinearLayout>

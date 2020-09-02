@@ -1,0 +1,33 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#959595"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellow"
+        android:titleTextColor="@android:color/white"
+        app:titleTextColor="@color/colorPrimaryDark"
+
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <ListView
+        android:foregroundTint="@color/white"
+        android:id="@+id/lvItems"
+        android:divider="#959595"
+        android:dividerHeight="3dp"
+
+        android:layout_margin="6dp"
+        android:listSelector="@drawable/list_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </ListView>
+
+
+
+</LinearLayout>
